@@ -1,0 +1,4 @@
+#!/bin/bash
+if [ "$2" = "up" ] then
+  /sbin/ethtool -K $1 tx off
+fi
